@@ -1,4 +1,5 @@
 import './App.css';
+import Comments from './components/Comments';
 import Likes from './components/Likes';
 import Title from './components/Title';
 
@@ -13,6 +14,7 @@ function App() {
             <Title/>
             <Likes />
           </div>
+          <Comments/>
         </div>
       </div>
     </div>
